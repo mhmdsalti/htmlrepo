@@ -1,7 +1,7 @@
+alert("welcome to IKEA SHOP!");
+alert("we have everything you need to your house!");
 
-
-
-var productType =prompt("what kind you need furniture things or electronic things ?")
+var productType =prompt("what do you need  for your home furniture things or electronic things ?")
 var noProduct = prompt(" how many product are you gonna buy today ?");
 var orderDetails ;
 
@@ -34,8 +34,8 @@ else {
 
 document.getElementById("order").innerText=productType;
 document.getElementById("orderdiscount").innerText=orderDetails;
-document.getElementById(produccount).innerText=noProduct;
+document.getElementById("productcount").innerText=noProduct;
 
-confirm("are you happy with your discount ?");
-alert("we have everything you need to your house!");
-alert("you are welcome to IKEA SHOP!");
+confirm("Huge Discounts Today !");
+alert("GoodBye!");
+
