@@ -1,24 +1,12 @@
-
 function getName() {
-    var userName = prompt('Enter your name?');
+    var userName = prompt('Enter your name !');
+    var userAge = prompt('Enter your age !');
     console.log(typeof prompt);
     console.log(userName);
     document.write(userName);
-    for (var i = 0; i <= 10; i++) {
-      console.log(i);
-    }
+    document.write(userAge);
+    
   };
   
   
   getName();
-
-
- 
-  
-   
-  
-  
-  
-
-
-  
