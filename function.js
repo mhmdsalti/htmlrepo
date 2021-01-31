@@ -3,6 +3,7 @@ function getName() {
     var userAge = prompt('Enter your age !');
     console.log(typeof prompt);
     console.log(userName);
+    console.log(userAge);
     document.write(userName);
     document.write(userAge);
     
