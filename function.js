@@ -6,7 +6,7 @@ function getName() {
     console.log(userAge);
     document.write(userName);
     document.write(userAge);
-    
+
   };
   
   
